@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="mainmenu">
+        <item>사용자가이드</item>
+        <item>일반촬영</item>
+        <item>개인도서관</item>
+    </string-array>
+
+    <string-array name="guidelist">
+        <item>공지사 하아앙</item>
+        <item>일반촬영가이드</item>
+        <item>개인도서관가이드</item>
+    </string-array>
+
+    <string-array name="generalcapturemenu">
+        <item>재촬영</item>
+        <item>나가기</item>
+    </string-array>
+
+</resources>

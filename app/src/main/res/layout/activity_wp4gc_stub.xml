@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+    />
+
+    <Button
+        android:text="Gallery Open"
+        android:textSize="18dp"
+        android:id="@+id/picture_openbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"
+        android:onClick="mOnClick"
+        />
+
+    <Button
+        android:text="Take a Picture"
+        android:textSize="18dp"
+        android:id="@+id/picture_takebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/picture_openbtn"
+        android:onClick="mOnClick"
+        />
+
+    <Button
+        android:text="Carry To Tesseract"
+        android:textSize="18dp"
+        android:id="@+id/picture_carrybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/picture_takebtn"
+        android:onClick="mOnClick"
+        />
+
+
+</RelativeLayout>

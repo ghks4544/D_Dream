@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_calluserguidelist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="사용자 가이드" />
+
+    <Button
+        android:id="@+id/btn_startgeneralcapture"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="일반 촬영" />
+
+    <Button
+        android:id="@+id/btn_startprivatlibrary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="개인 도서관" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_uileft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="mOnclick"
+            android:text="왼쪽" />
+
+        <Button
+            android:id="@+id/btn_uiok"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="mOnclick"
+            android:text="확인" />
+
+        <Button
+            android:id="@+id/btn_uiright"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="mOnclick"
+            android:text="오른쪽" />
+    </LinearLayout>
+
+</LinearLayout>

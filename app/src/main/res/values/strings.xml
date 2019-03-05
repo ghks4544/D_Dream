@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OpenCv_App1</string>
+
+    <!--Ted Permission Message -->
+    <string name="permission_notice">[설정] > [권한]에서 권한을 허용할 수 있습니다.</string>
+    <string name="permission_list">사진 및 파일에 접근하기 위한 접근 권한이 필요합니다.</string>
+</resources>
